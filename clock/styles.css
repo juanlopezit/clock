@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/matrix.jpg);
+    
+}
+
+p{
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: hsl(60, 33%, 81%);
+    background-color: hsla(0, 0%, 7%, 0.8);
+}
+
+.container{
+    height: 100px;
+    width: 70vw;
+    border-radius: 50px;
+    font-family: 'Rampart One', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 270px auto;
+    padding-bottom: 7rem;
+    background-color: hsla(0, 0%, 7%, 0.8);
+    
+
+}
+
+.clock-container{
+    display: flex;
+    justify-content: center;
+    color: hsl(64, 96%, 79%);
+    transition: transform .5s;
+    cursor: pointer;
+}
+
+.container:hover,
+.clock-container:hover{
+    transform: scale(1.1);
+    background: hsla(139, 60%, 55%, 0.5);
+    color:black;
+    box-shadow: 0 0 10px #42ce6e,
+                0 0 40px  #42ce6e,
+                0 0 100px  #42ce6e;
+    transition-delay: 0.1s;
+    border-radius: 50px;
+}
